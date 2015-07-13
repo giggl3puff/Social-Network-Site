@@ -83,17 +83,25 @@ font-size:20;
 color:black;
 }
 
-/*-------------------Classes------------------*/
-
-.menu{
-  list-style-type: none;
+#menu_A:hover > .dropdown{
+  display: block;
 }
+
+#menu_B:hover > .dropdown{
+  display: block;
+}
+
+#menu_C:hover > .dropdown{
+  display: block;
+}
+
+#menu_D:hover > .dropdown{
+  display: block;
+}
+
+/*-------------------Classes------------------*/
 
 .dropdown{
   list-style-type: none;
   display: none;
-}
-
-.menu:hover > .dropdown{
-  display: block;
 }
